@@ -10,6 +10,9 @@
 #include <stdlib.h>
 
 
+
+
+
 // Task priorities: Higher numbers are higher priority.
 #define mainTestTask_Priority ( tskIDLE_PRIORITY + 1 )
 //TaskHandle_t xHandle = NULL;
@@ -100,7 +103,7 @@ int main(void)
 //_________________________________________________________
 void Start( void * pvParameters )
 {	
-	// Start Text Raus schicken über queue
+	// Start Text Raus schicken Ã¼ber queue
 	// Und bei restart  muss wieder auf 0
 	char sendString[16];
 	char myChar;
